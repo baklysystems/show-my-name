@@ -1,0 +1,28 @@
+{
+    "name": "baklysystems/show-my-name",
+    "description": "Displays my name",
+    "authors":[
+	{ "name":"Mostafa El-Bakly",
+	  "email": "elbakly@gmail.com"
+	}	
+],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+	 "php": ">=5.5.9",
+        "illuminate/support": ">=5.0,<5.6"
+},
+"autoload": {
+        "psr-4": {
+            "Baklysystems\\ShowMyName\\": "src"
+        }
+    },
+ "extra": {
+        "laravel": {
+            "providers": [
+                "Baklysystems\\ShowMyName\\ShowMyNameServiceProvider"
+            ]
+        }
+    }
+
+}
