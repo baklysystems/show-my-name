@@ -13,7 +13,7 @@ class ShowMyNameServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'routes/show-my-name.php');
+        $this->loadRoutesFrom(__DIR__.'/routes/show-my-name.php');
     }
 
     /**
