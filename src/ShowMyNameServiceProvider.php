@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Baklysystems\ShowMyName;
 
 use Illuminate\Support\ServiceProvider;
 
